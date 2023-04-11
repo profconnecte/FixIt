@@ -36,7 +36,7 @@ If you are currently using the LoveIt theme (or some other themes), it is very e
 You can add this repo as a submodule of your site directory. Alternatively, you can install the theme in [other ways](https://fixit.lruihao.cn/documentation/basics/#install-theme).
 
 ```bash
-git submodule add https://github.com/hugo-fixit/FixIt.git themes/FixIt
+git submodule add https://github.com/profconnecte/FixIt.git themes/FixIt
 ```
 
 And later you can update the submodule in your site directory to the latest commit using this command:
