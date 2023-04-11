@@ -8,6 +8,7 @@
     font-size: 1.6rem;
     font-weight: bold;
     line-height: 140%;
+    color: $code-error-color;
   
     .icon-repost {
       color: var(--#{$prefix}success);
@@ -317,9 +318,9 @@
 
     blockquote {
       display: block;
-      border-left: 0.25em solid $global-border-color;
-      color: $blockquote-color;
-      padding: 0 1em;
+      border-left: 0.25em solid $blockquote-color;
+      background-color: rgba($blockquote-color, .2);
+      padding: .25rem .75rem;
       margin: 1rem 0;
 
       ul,
@@ -328,8 +329,8 @@
       }
 
       [data-theme='dark'] & {
-        color: $blockquote-color-dark;
-        border-left-color: $global-border-color-dark;
+        border-left-color: $blockquote-color-dark;
+        background-color: rgba($blockquote-color-dark, .2);
       }
 
       @include link(false, true);

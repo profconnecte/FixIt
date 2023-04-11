@@ -92,12 +92,12 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2376b7 !default; // 花青
-$single-link-color-dark: #1781b5 !default; // 釉蓝
+$single-link-color: #2d96bd !default;
+$single-link-color-dark: #55bde2 !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ea517f !default; // 莲瓣红
-$single-link-hover-color-dark: #619ac3 !default; // 羽扇豆蓝
+$single-link-hover-color: #ef3982 !default;
+$single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background
 $table-background-color: #fff !default;
@@ -108,8 +108,8 @@ $table-thead-color: #ededed !default;
 $table-thead-color-dark: #20252b !default;
 
 // Color of the blockquote
-$blockquote-color: #697681 !default;
-$blockquote-color-dark: #9ba3aa !default;
+$blockquote-color: #6bd6fd !default;
+$blockquote-color-dark: #59c5ec !default;
 
 // Color of reward
 $reward-color: tomato !default;
@@ -131,12 +131,12 @@ $pagination-link-hover-color-dark: #fff !default;
 
 // ========== Code ========== //
 // Color of the code
-$code-color: #24292f !default;
-$code-color-dark: #adbac7 !default;
+$code-color: #E74C3C !default;
+$code-color-dark: #E5BF78 !default;
 
 // Color of the code background
-$code-background-color: #f6f8fa !default;
-$code-background-color-dark: #2d333b !default;
+$code-background-color: #f5f5f5 !default;
+$code-background-color-dark: #272C34 !default;
 
 $code-error-color: #dc3545 !default;
 
